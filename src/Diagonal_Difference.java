@@ -5,7 +5,8 @@ public class Diagonal_Difference {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
 
-        int diag1 = 0 ; int diag2 = 0;
+        int diag1 = 0;
+        int diag2 = 0;
 
         for(int i =0 ; i < n; i++){
             String str[] = sc.nextLine().split(" ");
