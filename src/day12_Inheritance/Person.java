@@ -1,3 +1,5 @@
+package day12_Inheritance;
+
 import java.util.Scanner;
 
 public class Person {
