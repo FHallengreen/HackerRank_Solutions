@@ -3,7 +3,7 @@ package problemSolving;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Solution {
+public class gradingStudents {
 
     public static void gradingStudents(ArrayList<Integer> arr) {
 
