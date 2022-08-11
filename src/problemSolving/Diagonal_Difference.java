@@ -1,3 +1,5 @@
+package problemSolving;
+
 import java.util.Scanner;
 
 public class Diagonal_Difference {
