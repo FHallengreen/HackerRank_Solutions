@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class findDigits {
 
     public static int findDigits(int n) {
-        String nlength = String.valueOf(n);
+        int r = n;
         int count = 0;
-        for (int i = 0; i < nlength.length(); i++) {
-            if (nlength.charAt(i) % n == 0) {
+        while (r > 0) {
+            if (r % 10 != 0 && n % (r % 10) == 0) {
                 count++;
+                r /= 10;
             }
+            else r/=10;
         }
         return count;
     }
