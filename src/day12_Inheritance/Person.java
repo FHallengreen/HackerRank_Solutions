@@ -1,4 +1,4 @@
-package thirtyDaysOfCoding.day12_Inheritance;
+package day12_Inheritance;
 
 import java.util.Scanner;
 
